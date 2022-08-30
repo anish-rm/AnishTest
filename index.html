@@ -1,0 +1,926 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/9e2bf9b3dc.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <nav class="navbar1">
+        <div class="content">
+            <div class="logo"><img src="logo.png" alt="" width="40"><a href="">AnishCrac</a></div>
+            <ul class="menu-list">
+                <div class="icon cancel-btn">
+                    <i class="fas fa-times icon1"></i>
+                </div>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#products">All Products</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <!-- <div class="fas fa-search" id="search-btn"></div> -->
+            <div class="login">
+                <div class="fas fa-user icon2" id="login-btn"></div>
+            </div>
+            <div class="cartbut">
+
+                <a href="cart.html" style="color: #ffd803;"><div class="fa-solid fa-cart-shopping" id="cart-btn"></div></a>
+            </div>
+            <div class="icon menu-btn">
+                <i class="fas fa-bars icon1"></i>
+            </div>
+        </div>
+    </nav>
+        <div id="carouselExampleDark" class="carousel slide" data-ride="carousel">
+            <div class="carousel-indicators">
+                <button class="btn1" type="button" data-target="#carouselExampleDark" data-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button class ="btn1" type="button" data-target="#carouselExampleDark" data-slide-to="1" aria-label="Slide 2"></button>
+              </div>
+            <!-- <ol class="carousel-indicators">
+                <li data-bs-target="#carouselExampleDark" data-slide-to="0" class="active"></li>
+                <li data-bs-target="#carouselExampleDark" data-slide-to="1"></li>
+            </ol> -->
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000" style="background-image: url(home1.jpg);">
+                    <div class="container">
+                        <h1>Example Headline</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit suscipit corporis unde repellendus ipsam perspiciatis totam iure, harum asperiores sit.</p>
+                        <a href="#" class="btn btn-lg btn-primary">Explore</a>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="20000" style="background-image: url(home2.jpg);">
+                    <div class="container">
+                        <h1>Example Headline</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit suscipit corporis unde repellendus ipsam perspiciatis totam iure, harum asperiores sit.</p>
+                        <a href="#" class="btn btn-lg btn-primary">Explore</a>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-target="#carouselExampleDark" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-target="#carouselExampleDark" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+              <!-- <a href="#carouselExampleDark" class="carousel-control-prev" role="button" data-slide="prev">
+                <span class="sr-only">Previous</span>
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              </a>
+              <a href="#carouselExampleDark" class="carousel-control-prev" role="button" data-slide="next">
+                <span class="sr-only">Previous</span>
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              </a> -->
+        </div>
+        
+        
+
+    <div class="about d-none" id="products">
+        <div class="container1">
+            <form action="" class="myform temp">
+                <select name="cars" id="cars" class="drop">
+                    <option value="products" class="opt">Products</option>
+                    <option value="sparkles" class="opt">Sparkles</option>
+                    <option value="rockets" class="opt">Rockets</option>
+                    <option value="bomb" class="opt">Bomb</option>
+                    <option value="combo" class="opt">Combos</option>
+                </select>
+                <input type="search" name="" id="" class="search" placeholder="Search">
+            </form>
+            <div class="pics">
+                <div class="products">
+                    <h1 class="heading"> All <span> Products</span> </h1>
+                    <!-- <img src="sparkle1.png" alt="" width="350px">
+                    <img src="sparkle2.png" alt="" width="350px">
+                    <img src="sparkle3.png" alt="" width="350px">
+                    <img src="sparkle4.png" alt="" width="350px">
+                    <img src="sparkle5.png" alt="" width="350px">              -->
+            
+            
+                    <!-- <div class="container mb-5 mt-5">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <div class="card mt-3">
+                                    <div class="product-1 align-items-center p-2 text-center">
+                                        <img src="sparkle1.png" alt="" class="rounded" width="140" height="150">
+                                        <h5 class="mt-2">Crackers</h5> -->
+                
+                                        <!-- cardinfo -->
+                                        <!-- <div class="mt-3 info">
+                                            <span class="text1 d-block">Lorem ipsum dolor sit amet.</span>
+                                            <span class="text1">Lorem, ipsum dolor.</span>
+                                        </div> -->
+                                        <!-- <div class="cost mt-3 text-dark">
+                                            <span>$69.99</span>
+                                            <div class="star mt-3 align-items-center">
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="p-3 shoe text-center text-white mt-3 cursor">
+                                        <span class="text-uppercase">Add to cart</span>
+                                    </div>
+                                </div>
+                            </div> -->
+                <div class="mb-5 mt-5">
+                    <div class="row">
+                            <div class="col-md-3">
+                                <div class="card mt-3">
+                                    <div class="product-1 align-items-center p-2 text-center">
+                                        <img src="sparkle2.png" alt="" class="rounded" width="140" height="150">
+                                        <h5 class="mt-2">Bijili</h5>
+                
+                                        <!-- cardinfo -->
+                                        <!-- <div class="mt-3 info">
+                                            <span class="text1 d-block">Lorem ipsum dolor sit amet.</span>
+                                            <span class="text1">Lorem, ipsum dolor.</span>
+                                        </div> -->
+                                        <div class="cost mt-3 text-dark">
+                                            <div class="price"> Rs.700 <span> Rs.800</span></div>
+                                            <div class="quantity">
+                                                <span>Quantity : </span>
+                                                <input type="number" min="1" max="1000" value="1">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="p-3 watch text-center text-white mt-3 cursor">
+                                        <span class="text-uppercase">Add to cart</span>
+                                    </div>
+                                </div>
+                            </div>
+                
+                  
+                            <div class="col-md-3">
+                                <div class="card mt-3">
+                                    <div class="product-1 align-items-center p-2 text-center">
+                                        <img src="sparkle3.png" alt="" class="rounded" width="140" height="150">
+                                        <h5 class="mt-2">Lakshmi Vedi</h5>
+                                        <div class="cost mt-3 text-dark">
+                                            <div class="price"> Rs.700 <span> Rs.800</span></div>
+                                            <div class="quantity">
+                                                <span>Quantity : </span>
+                                                <input type="number" min="1" max="1000" value="1">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="p-3 shirt text-center text-white mt-3 cursor">
+                                        <span class="text-uppercase">Add to cart</span>
+                                    </div>
+                                </div>
+                            </div>
+                
+                
+                            <div class="col-md-3">
+                                <div class="card mt-3">
+                                    <div class="product-1 align-items-center p-2 text-center">
+                                        <img src="sparkle4.png" alt="" class="rounded" width="140" height="150">
+                                        <h5 class="mt-2">Lakshmi Vedi</h5>
+                
+                                        <!-- cardinfo -->
+                                        <!-- <div class="mt-3 info">
+                                            <span class="text1 d-block">Lorem ipsum dolor sit amet.</span>
+                                            <span class="text1">Lorem, ipsum dolor.</span>
+                                        </div> -->
+                                        <div class="cost mt-3 text-dark">
+                                            <div class="price"> Rs.700 <span> Rs.800</span></div>
+                                            <div class="quantity">
+                                                <span>Quantity : </span>
+                                                <input type="number" min="1" max="1000" value="1">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="p-3 shirt text-center text-white mt-3 cursor">
+                                        <span class="text-uppercase">Add to cart</span>
+                                    </div>
+                                </div>
+                            </div>
+                
+                            <div class="col-md-3">
+                                <div class="card mt-3">
+                                    <div class="product-1 align-items-center p-2 text-center">
+                                        <img src="sparkle5.png" alt="" class="rounded" width="140" height="150">
+                                        <h5 class="mt-2">Lakshmi Vedi</h5>
+                
+                                        <!-- cardinfo -->
+                                        <!-- <div class="mt-3 info">
+                                            <span class="text1 d-block">Lorem ipsum dolor sit amet.</span>
+                                            <span class="text1">Lorem, ipsum dolor.</span>
+                                        </div> -->
+                                        <div class="cost mt-3 text-dark">
+                                            <div class="price"> Rs.700 <span> Rs.800</span></div>
+                                            <div class="quantity">
+                                                <span>Quantity : </span>
+                                                <input type="number" min="1" max="1000" value="1">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="p-3 shirt text-center text-white mt-3 cursor">
+                                        <span class="text-uppercase">Add to cart</span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+        
+        
+        
+                            <div class="col-md-3">
+                                <div class="card mt-3">
+                                    <div class="product-1 align-items-center p-2 text-center">
+                                        <img src="sparkle2.png" alt="" class="rounded" width="140" height="150">
+                                        <h5 class="mt-2">Lakshmi Vedi</h5>
+                
+                                        <!-- cardinfo -->
+                                        <!-- <div class="mt-3 info">
+                                            <span class="text1 d-block">Lorem ipsum dolor sit amet.</span>
+                                            <span class="text1">Lorem, ipsum dolor.</span>
+                                        </div> -->
+                                        <div class="cost mt-3 text-dark">
+                                            <div class="price"> Rs.700 <span> Rs.800</span></div>
+                                            <div class="quantity">
+                                                <span>Quantity : </span>
+                                                <input type="number" min="1" max="1000" value="1">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="p-3 shirt text-center text-white mt-3 cursor">
+                                        <span class="text-uppercase">Add to cart</span>
+                                    </div>
+                                </div>
+                            </div>
+                
+                            
+                            <div class="col-md-3">
+                                <div class="card mt-3">
+                                    <div class="product-1 align-items-center p-2 text-center">
+                                        <img src="sparkle3.png" alt="" class="rounded" width="140" height="150">
+                                        <h5 class="mt-2">Lakshmi Vedi</h5>
+                                        <div class="cost mt-3 text-dark">
+                                            <div class="price"> Rs.700 <span> Rs.800</span></div>
+                                            <div class="quantity">
+                                                <span>Quantity : </span>
+                                                <input type="number" min="1" max="1000" value="1">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="p-3 shirt text-center text-white mt-3 cursor">
+                                        <span class="text-uppercase">Add to cart</span>
+                                    </div>
+                                </div>
+                            </div>
+                
+                            <div class="col-md-3">
+                                <div class="card mt-3">
+                                    <div class="product-1 align-items-center p-2 text-center">
+                                        <img src="sparkle3.png" alt="" class="rounded" width="140" height="150">
+                                        <h5 class="mt-2">Lakshmi Vedi</h5>
+                                        <div class="cost mt-3 text-dark">
+                                            <div class="price"> Rs.700 <span> Rs.800</span></div>
+                                            <div class="quantity">
+                                                <span>Quantity : </span>
+                                                <input type="number" min="1" max="1000" value="1">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="p-3 shirt text-center text-white mt-3 cursor">
+                                        <span class="text-uppercase">Add to cart</span>
+                                    </div>
+                                </div>
+                            </div>
+                
+                            <div class="col-md-3">
+                                <div class="card mt-3">
+                                    <div class="product-1 align-items-center p-2 text-center">
+                                        <img src="sparkle3.png" alt="" class="rounded" width="140" height="150">
+                                        <h5 class="mt-2">Lakshmi Vedi</h5>
+                                        <div class="cost mt-3 text-dark">
+                                            <div class="price"> Rs.700 <span> Rs.800</span></div>
+                                            <div class="quantity">
+                                                <span>Quantity : </span>
+                                                <input type="number" min="1" max="1000" value="1">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="p-3 shirt text-center text-white mt-3 cursor">
+                                        <span class="text-uppercase">Add to cart</span>
+                                    </div>
+                                </div>
+                            </div>
+                
+                            <div class="col-md-3">
+                                <div class="card mt-3">
+                                    <div class="product-1 align-items-center p-2 text-center">
+                                        <img src="sparkle3.png" alt="" class="rounded" width="140" height="150">
+                                        <h5 class="mt-2">Lakshmi Vedi</h5>
+                                        <div class="cost mt-3 text-dark">
+                                            <div class="price"> Rs.700 <span> Rs.800</span></div>
+                                            <div class="quantity">
+                                                <span>Quantity : </span>
+                                                <input type="number" min="1" max="1000" value="1">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="p-3 shirt text-center text-white mt-3 cursor">
+                                        <span class="text-uppercase">Add to cart</span>
+                                    </div>
+                                </div>
+                            </div>
+                
+                            <div class="col-md-3">
+                                <div class="card mt-3">
+                                    <div class="product-1 align-items-center p-2 text-center">
+                                        <img src="sparkle3.png" alt="" class="rounded" width="140" height="150">
+                                        <h5 class="mt-2">Lakshmi Vedi</h5>
+                                        <div class="cost mt-3 text-dark">
+                                            <div class="price"> Rs.700 <span> Rs.800</span></div>
+                                            <div class="quantity">
+                                                <span>Quantity : </span>
+                                                <input type="number" min="1" max="1000" value="1">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="p-3 shirt text-center text-white mt-3 cursor">
+                                        <span class="text-uppercase">Add to cart</span>
+                                    </div>
+                                </div>
+                            </div>
+                
+                            <div class="col-md-3">
+                                <div class="card mt-3">
+                                    <div class="product-1 align-items-center p-2 text-center">
+                                        <img src="sparkle3.png" alt="" class="rounded" width="140" height="150">
+                                        <h5 class="mt-2">Lakshmi Vedi</h5>
+                                        <div class="cost mt-3 text-dark">
+                                            <div class="price"> Rs.700 <span> Rs.800</span></div>
+                                            <div class="quantity">
+                                                <span>Quantity : </span>
+                                                <input type="number" min="1" max="1000" value="1">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="p-3 shirt text-center text-white mt-3 cursor">
+                                        <span class="text-uppercase">Add to cart</span>
+                                    </div>
+                                </div>
+                            </div>
+                
+                            <div class="col-md-3">
+                                <div class="card mt-3">
+                                    <div class="product-1 align-items-center p-2 text-center">
+                                        <img src="sparkle3.png" alt="" class="rounded" width="140" height="150">
+                                        <h5 class="mt-2">Lakshmi Vedi</h5>
+                                        <div class="cost mt-3 text-dark">
+                                            <div class="price"> Rs.700 <span> Rs.800</span></div>
+                                            <div class="quantity">
+                                                <span>Quantity : </span>
+                                                <input type="number" min="1" max="1000" value="1">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="p-3 shirt text-center text-white mt-3 cursor">
+                                        <span class="text-uppercase">Add to cart</span>
+                                    </div>
+                                </div>
+                            </div>
+                
+                            <div class="col-md-3">
+                                <div class="card mt-3">
+                                    <div class="product-1 align-items-center p-2 text-center">
+                                        <img src="sparkle3.png" alt="" class="rounded" width="140" height="150">
+                                        <h5 class="mt-2">Lakshmi Vedi</h5>
+                                        <div class="cost mt-3 text-dark">
+                                            <div class="price"> Rs.700 <span> Rs.800</span></div>
+                                            <div class="quantity">
+                                                <span>Quantity : </span>
+                                                <input type="number" min="1" max="1000" value="1">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="p-3 shirt text-center text-white mt-3 cursor">
+                                        <span class="text-uppercase">Add to cart</span>
+                                    </div>
+                                </div>
+                            </div>
+                
+                            <div class="col-md-3">
+                                <div class="card mt-3">
+                                    <div class="product-1 align-items-center p-2 text-center">
+                                        <img src="sparkle3.png" alt="" class="rounded" width="140" height="150">
+                                        <h5 class="mt-2">Lakshmi Vedi</h5>
+                                        <div class="cost mt-3 text-dark">
+                                            <div class="price"> Rs.700 <span> Rs.800</span></div>
+                                            <div class="quantity">
+                                                <span>Quantity : </span>
+                                                <input type="number" min="1" max="1000" value="1">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="p-3 shirt text-center text-white mt-3 cursor">
+                                        <span class="text-uppercase">Add to cart</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3">
+                                <div class="card mt-3">
+                                    <div class="product-1 align-items-center p-2 text-center">
+                                        <img src="rocket1.jpg" alt="" class="rounded" width="140" height="150">
+                                        <h5 class="mt-2">Crackers</h5>
+                
+                                        <!-- cardinfo -->
+                                        <!-- <div class="mt-3 info">
+                                            <span class="text1 d-block">Lorem ipsum dolor sit amet.</span>
+                                            <span class="text1">Lorem, ipsum dolor.</span>
+                                        </div> -->
+                                        <div class="cost mt-3 text-dark">
+                                            <div class="price"> Rs.700 <span> Rs.800</span></div>
+                                            <div class="quantity">
+                                                <span>Quantity : </span>
+                                                <input type="number" min="1" max="1000" value="1">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="p-3 shoe text-center text-white mt-3 cursor">
+                                        <span class="text-uppercase">Add to cart</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3">
+                                <div class="card mt-3">
+                                    <div class="product-1 align-items-center p-2 text-center">
+                                        <img src="sparkle5.png" alt="" class="rounded" width="140" height="150">
+                                        <h5 class="mt-2">Lakshmi Vedi</h5>
+                
+                                        <!-- cardinfo -->
+                                        <!-- <div class="mt-3 info">
+                                            <span class="text1 d-block">Lorem ipsum dolor sit amet.</span>
+                                            <span class="text1">Lorem, ipsum dolor.</span>
+                                        </div> -->
+                                        <div class="cost mt-3 text-dark">
+                                            <div class="price"> Rs.700 <span> Rs.800</span></div>
+                                            <div class="quantity">
+                                                <span>Quantity : </span>
+                                                <input type="number" min="1" max="1000" value="1">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="p-3 shirt text-center text-white mt-3 cursor">
+                                        <span class="text-uppercase">Add to cart</span>
+                                    </div>
+                                </div>
+                            </div>
+                
+        
+                        </div>
+                    </div>       
+                </div>
+
+                <div class="sparkles disp">
+                    <h1 class="heading"> <span>Sparkles</span> </h1>
+                    <!-- <img src="sparkle1.png" alt="" width="350px">
+                    <img src="sparkle2.png" alt="" width="350px">
+                    <img src="sparkle3.png" alt="" width="350px">
+                    <img src="sparkle4.png" alt="" width="350px">
+                    <img src="sparkle5.png" alt="" width="350px">              -->
+            
+            
+                    <div class="mb-5 mt-5">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <div class="card mt-3">
+                                    <div class="product-1 align-items-center p-2 text-center">
+                                        <img src="sparkle1.png" alt="" class="rounded" width="140" height="150">
+                                        <h5 class="mt-2">Crackers</h5>
+                
+                                        <!-- cardinfo -->
+                                        <!-- <div class="mt-3 info">
+                                            <span class="text1 d-block">Lorem ipsum dolor sit amet.</span>
+                                            <span class="text1">Lorem, ipsum dolor.</span>
+                                        </div> -->
+                                        <div class="cost mt-3 text-dark">
+                                            <div class="price"> Rs.700 <span> Rs.800</span></div>
+                                            <div class="quantity">
+                                                <span>Quantity : </span>
+                                                <input type="number" min="1" max="1000" value="1">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="p-3 shoe text-center text-white mt-3 cursor">
+                                        <span class="text-uppercase">Add to cart</span>
+                                    </div>
+                                </div>
+                            </div>
+                
+                            <div class="col-md-3">
+                                <div class="card mt-3">
+                                    <div class="product-1 align-items-center p-2 text-center">
+                                        <img src="sparkle2.png" alt="" class="rounded" width="140" height="150">
+                                        <h5 class="mt-2">Bijili</h5>
+                
+                                        <!-- cardinfo -->
+                                        <!-- <div class="mt-3 info">
+                                            <span class="text1 d-block">Lorem ipsum dolor sit amet.</span>
+                                            <span class="text1">Lorem, ipsum dolor.</span>
+                                        </div> -->
+                                        <div class="cost mt-3 text-dark">
+                                            <div class="price"> Rs.700 <span> Rs.800</span></div>
+                                            <div class="quantity">
+                                                <span>Quantity : </span>
+                                                <input type="number" min="1" max="1000" value="1">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="p-3 watch text-center text-white mt-3 cursor">
+                                        <span class="text-uppercase">Add to cart</span>
+                                    </div>
+                                </div>
+                            </div>
+                
+                  
+                            <div class="col-md-3">
+                                <div class="card mt-3">
+                                    <div class="product-1 align-items-center p-2 text-center">
+                                        <img src="sparkle3.png" alt="" class="rounded" width="140" height="150">
+                                        <h5 class="mt-2">Lakshmi Vedi</h5>
+                
+                                        <!-- cardinfo -->
+                                        <!-- <div class="mt-3 info">
+                                            <span class="text1 d-block">Lorem ipsum dolor sit amet.</span>
+                                            <span class="text1">Lorem, ipsum dolor.</span>
+                                        </div> -->
+                                        <div class="cost mt-3 text-dark">
+                                            <div class="price"> Rs.700 <span> Rs.800</span></div>
+                                            <div class="quantity">
+                                                <span>Quantity : </span>
+                                                <input type="number" min="1" max="1000" value="1">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="p-3 shirt text-center text-white mt-3 cursor">
+                                        <span class="text-uppercase">Add to cart</span>
+                                    </div>
+                                </div>
+                            </div>
+                
+                
+                            <div class="col-md-3">
+                                <div class="card mt-3">
+                                    <div class="product-1 align-items-center p-2 text-center">
+                                        <img src="sparkle4.png" alt="" class="rounded" width="140" height="150">
+                                        <h5 class="mt-2">Lakshmi Vedi</h5>
+                
+                                        <!-- cardinfo -->
+                                        <!-- <div class="mt-3 info">
+                                            <span class="text1 d-block">Lorem ipsum dolor sit amet.</span>
+                                            <span class="text1">Lorem, ipsum dolor.</span>
+                                        </div> -->
+                                        <div class="cost mt-3 text-dark">
+                                            <div class="price"> Rs.700 <span> Rs.800</span></div>
+                                            <div class="quantity">
+                                                <span>Quantity : </span>
+                                                <input type="number" min="1" max="1000" value="1">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="p-3 shirt text-center text-white mt-3 cursor">
+                                        <span class="text-uppercase">Add to cart</span>
+                                    </div>
+                                </div>
+                            </div>
+                
+                            <div class="col-md-3">
+                                <div class="card mt-3">
+                                    <div class="product-1 align-items-center p-2 text-center">
+                                        <img src="sparkle5.png" alt="" class="rounded" width="140" height="150">
+                                        <h5 class="mt-2">Lakshmi Vedi</h5>
+                
+                                        <!-- cardinfo -->
+                                        <!-- <div class="mt-3 info">
+                                            <span class="text1 d-block">Lorem ipsum dolor sit amet.</span>
+                                            <span class="text1">Lorem, ipsum dolor.</span>
+                                        </div> -->
+                                        <div class="cost mt-3 text-dark">
+                                            <div class="price"> Rs.700 <span> Rs.800</span></div>
+                                            <div class="quantity">
+                                                <span>Quantity : </span>
+                                                <input type="number" min="1" max="1000" value="1">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="p-3 shirt text-center text-white mt-3 cursor">
+                                        <span class="text-uppercase">Add to cart</span>
+                                    </div>
+                                </div>
+                            </div>
+                
+                            <div class="col-md-3">
+                                <div class="card mt-3">
+                                    <div class="product-1 align-items-center p-2 text-center">
+                                        <img src="sparkle2.png" alt="" class="rounded" width="140" height="150">
+                                        <h5 class="mt-2">Lakshmi Vedi</h5>
+                
+                                        <!-- cardinfo -->
+                                        <!-- <div class="mt-3 info">
+                                            <span class="text1 d-block">Lorem ipsum dolor sit amet.</span>
+                                            <span class="text1">Lorem, ipsum dolor.</span>
+                                        </div> -->
+                                        <div class="cost mt-3 text-dark">
+                                            <div class="price"> Rs.700 <span> Rs.800</span></div>
+                                            <div class="quantity">
+                                                <span>Quantity : </span>
+                                                <input type="number" min="1" max="1000" value="1">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="p-3 shirt text-center text-white mt-3 cursor">
+                                        <span class="text-uppercase">Add to cart</span>
+                                    </div>
+                                </div>
+                            </div>
+                
+                        </div>
+                    </div>   
+                </div>
+
+                <div class="rockets disp">
+                    <h1 class="heading"> <span>Rockets</span> </h1>
+
+                    <div class="mb-5 mt-5">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <div class="card mt-3">
+                                    <div class="product-1 align-items-center p-2 text-center">
+                                        <img src="rocket1.jpg" alt="" class="rounded" width="140" height="150">
+                                        <h5 class="mt-2">Crackers</h5>
+                
+                                        <!-- cardinfo -->
+                                        <!-- <div class="mt-3 info">
+                                            <span class="text1 d-block">Lorem ipsum dolor sit amet.</span>
+                                            <span class="text1">Lorem, ipsum dolor.</span>
+                                        </div> -->
+                                        <div class="cost mt-3 text-dark">
+                                            <div class="price"> Rs.700 <span> Rs.800</span></div>
+                                            <div class="quantity">
+                                                <span>Quantity : </span>
+                                                <input type="number" min="1" max="1000" value="1">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="p-3 shoe text-center text-white mt-3 cursor">
+                                        <span class="text-uppercase">Add to cart</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3">
+                                <div class="card mt-3">
+                                    <div class="product-1 align-items-center p-2 text-center">
+                                        <img src="sparkle5.png" alt="" class="rounded" width="140" height="150">
+                                        <h5 class="mt-2">Lakshmi Vedi</h5>
+                
+                                        <!-- cardinfo -->
+                                        <!-- <div class="mt-3 info">
+                                            <span class="text1 d-block">Lorem ipsum dolor sit amet.</span>
+                                            <span class="text1">Lorem, ipsum dolor.</span>
+                                        </div> -->
+                                        <div class="cost mt-3 text-dark">
+                                            <div class="price"> Rs.700 <span> Rs.800</span></div>
+                                            <div class="quantity">
+                                                <span>Quantity : </span>
+                                                <input type="number" min="1" max="1000" value="1">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="p-3 shirt text-center text-white mt-3 cursor">
+                                        <span class="text-uppercase">Add to cart</span>
+                                    </div>
+                                </div>
+                            </div>
+                
+                        </div>
+                    </div>   
+                </div>
+
+
+                <div class="bomb disp">
+                    <h1 class="heading"> <span>Bomb</span> </h1>
+                </div>
+
+                <div class="combo disp">
+                    <h1 class="heading"> <span>Combo</span> </h1>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+
+
+    <div class="amount">
+        <!-- <div class="content"> -->
+            <h1>Net Total : </h1> <h3>0.00</h3>
+        <!-- </div> -->
+    </div>
+
+
+    
+    <table class="table">
+        <thead>
+          <tr class="thead">
+            <th scope="col">#</th>
+            <th scope="col">Image</th>
+            <th scope="col">Product Name</th>
+            <th scope="col">Content</th>
+            <th scope="col" class="actual">Actual Rate</th>
+            <th scope="col">Offer Price 80%</th>
+            <th scope="col">price</th>
+            <th scope="col">Quantity</th>
+            <th scope="col">Total</th>
+          </tr>
+        </thead>
+        <tbody>
+            <tr class="try1">
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+          <tr class="try">
+            <td>1.</td>
+            <td><img src="sparkle1.png" alt="" width="80" height="70"></td>
+            <td>Otto</td>
+            <td>@mdo</td>
+            <td>@mdo</td>
+            <td>@mdo</td>
+            <td>@mdo</td>
+            <td><input type="number" name="" id="" class="qbox"></td>
+            <td>0</td>
+
+          </tr>
+          <tr class="try1">
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+
+          </tr>
+          <tr class="try">
+            <td>2.</td>
+            <td><img src="sparkle2.png" alt="" width="80" height="70"></td>
+            <td>Otto</td>
+            <td>@mdo</td>
+            <td>@mdo</td>
+            <td>@mdo</td>
+            <td>@mdo</td>
+            <td><input type="number" name="" id="" class="qbox"></td>
+            <td>0</td>
+
+        </tr>
+          <tr class="try1">
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+
+          </tr>
+          <tr class="try">
+            <td class="bor1">3.</td>
+            <td><img src="sparkle3.png" alt="" width="80" height="70" ></td>
+            <td>Otto</td>
+            <td>@mdo</td>
+            <td>@mdo</td>
+            <td>@mdo</td>
+            <td>@mdo</td>
+            <td><input type="number" name="" id="" class="qbox"></td>
+            <td>0</td>
+          </tr>
+        </tbody>
+      </table>
+
+    <section class="newsletter">
+
+        <h3>Subscribe Us For Latest Updates</h3>
+    
+        <form action="">
+            <input class="box1" type="email" placeholder="enter your email">
+            <input type="submit" value="subscribe" class="btn">
+        </form>
+    
+    </section>
+    
+
+
+<section class="footer">
+    <div class="logo"><a href="">    </a></div>
+    <div class="box-container">
+        <div class="box1">
+            <div class="logo"><img src="logo.png" alt="" width="40"><a href="">AnishCrac</a></div>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam culpa sit enim nesciunt rerum laborum illum quam error ut alias!</p>
+            <!-- <div class="share">
+                <a href="#" class="fbtn fab fa-facebook-f"></a>
+                <a href="#" class="fbtn fab fa-twitter"></a>
+                <a href="#" class="fbtn fab fa-instagram"></a>
+            </div> -->
+        </div>
+        
+        <div class="box1">
+            <h3>our location</h3>
+            <div class="links">
+                <a href="#">india</a>
+                <a href="#">USA</a>
+                <a href="#">france</a>
+                <a href="#">japan</a>
+                <!-- <a href="#">russia</a> -->
+            </div>
+        </div>
+
+        <div class="box1">
+            <h3>quick links</h3>
+            <div class="links">
+                <a href="index.html">home</a>
+                <a href="#products">All Products</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+                <!-- <a href="#">contact</a> -->
+            </div>
+        </div>
+
+        <div class="box1">
+            <h3>download app</h3>
+            <div class="links">
+                <a href="#">google play</a>
+                <a href="#">window xp</a>
+                <a href="#">app store</a>
+            </div>
+        </div>
+
+    </div>
+
+    
+</section>
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <!-- <script>
+        const menu = document.querySelector(".menu-list");
+        const menuBtn = document.querySelector(".menu-btn");
+        const cancel = document.querySelector(".cancel-btn");
+        const login = document.querySelector('.login')
+        const cart = document.querySelector('.cartbut')
+        menuBtn.onclick = ()=>{
+            menu.classList.add("active");
+            menuBtn.classList.add("hide");
+            login.classList.add("hide");
+            cart.classList.add("hide");
+        }
+        cancel.onclick = ()=>{
+            menu.classList.remove("active");
+            menuBtn.classList.remove("hide");
+            login.classList.remove("hide");
+            cart.classList.remove("hide");
+        }
+    </script> -->
+    <script src="script.js"></script>
+    <script>
+        const head = document.querySelector('.amount');
+        window.addEventListener("scroll",()=>{
+            if(window.scrollY > 650){
+                head.classList.add('active1')
+            }
+        });
+        console.log(head);
+    </script>
+</body>
+</html>
