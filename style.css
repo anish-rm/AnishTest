@@ -440,6 +440,7 @@ tr img{
     box-sizing: border-box;
     outline: none;
     border: none; */
+    width: 100%;
     text-decoration: none;
     text-transform: capitalize;
     transition: all .2s linear;
@@ -626,22 +627,14 @@ tr img{
   }
 
 
-  .amount{
-    /* margin-top: 100px; */
-    /* position: sticky; */
-    z-index: 5;
+.amount{
+    z-index: 1111;
     width: 100%;
-    
-    /* width: ; */
     padding: 22px 0;
     background: #fbc02d;
     color: #272343;
     text-align: center;
-    /* box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1); */
-    margin-bottom: 5rem;
-    /* top:; */
-    /* padding: 1000px; */
-    /* padding-bottom: 40px 0; */
+    margin-bottom: 2rem;
 }
 
 .amount h1{
@@ -654,8 +647,30 @@ tr img{
     top: 0;
     left: 0;
     margin-top: 100px;
+    z-index: 111;
+}
+
+
+.accordion{
+    margin-bottom: 50px;
+}
+
+.prood{
+    width: 90%;
+    margin: auto;
     z-index: 0;
 }
+
+.accordion-button{
+    background: #ffd803 !important;
+    border: none;
+    color:#272343 !important;
+    z-index: 0;
+}
+
+.table tr.try1>td{
+    padding-bottom: 2em;
+} 
 
 @media only screen and (max-width: 600px){
     .cart-info p{
@@ -737,12 +752,19 @@ tr img{
     .contact form .inputBox input{
         width: 100%;
     }
-    .newsletter,.footer,.slide,.amount{
+    /* .newsletter,.footer,.slide,.amount{
         width: 615px;
-    }
+    } */
     /* .navbar1{
         height: 150px;
     } */
+    .tab{
+        /* width: 100%; */
+        width: 400px !important;
+    }
+    .tab .table{
+        width: 400px !important;
+    }
     .newsletter h3{
     font-size: 1.2rem;
   }
